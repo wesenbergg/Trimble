@@ -14,7 +14,8 @@ public class Main {
 	 * Syötä sen jälkeen n kertaa rivejä siten, että yhdellä rivillä on kaksi lukua.
 	 * Ensimmäinen luku x viittaa junan kellotaulun olevien minuuttien määrään (jäljellä oleva odotusaika),
 	 * jossa 0 < x < 60 ja x kuuluu kokonaislukuihin.
-	 * Toinen luku y viittaa, mikä oli todellinen odotusaika.
+	 * Toinen luku y viittaa, mikä oli todellinen odotusaika sekunteina,
+	 * jossa 0 < y < 3600 ja y kuuluu kokonaislukuihin.
 	 * Ohjelma printtaa ulos kellotaulun todellisen minuutin keskiarvon.
 	 * Jos tulos jää kuitenkin alle ykkösen halutaan printata ulos
 	 * "measurment error".
